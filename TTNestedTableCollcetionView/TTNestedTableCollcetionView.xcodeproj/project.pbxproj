@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DCD77CFF38EAA65D2217618 /* Pods_TTNestedTableCollcetionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0294325165B543E649FA3CF1 /* Pods_TTNestedTableCollcetionView.framework */; };
 		E787E86721B7979F00E71E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E787E86621B7979F00E71E8C /* AppDelegate.m */; };
 		E787E86D21B7979F00E71E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E787E86B21B7979F00E71E8C /* Main.storyboard */; };
 		E787E86F21B797A800E71E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E787E86E21B797A800E71E8C /* Assets.xcassets */; };
@@ -16,9 +17,13 @@
 		E787E88021B798AD00E71E8C /* TTRootTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E787E87F21B798AD00E71E8C /* TTRootTableCell.m */; };
 		E787E88321B7990D00E71E8C /* TTFixedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E787E88221B7990D00E71E8C /* TTFixedTableViewCell.m */; };
 		E787E88621B7993800E71E8C /* TTRootCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E787E88521B7993800E71E8C /* TTRootCollectionCell.m */; };
+		E787E88921B7AB3400E71E8C /* TTTBImitationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E787E88821B7AB3400E71E8C /* TTTBImitationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0294325165B543E649FA3CF1 /* Pods_TTNestedTableCollcetionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTNestedTableCollcetionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBB89CD31C099CDD1A0CA89 /* Pods-TTNestedTableCollcetionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTNestedTableCollcetionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTNestedTableCollcetionView/Pods-TTNestedTableCollcetionView.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E746705270BCDFF14790DF /* Pods-TTNestedTableCollcetionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTNestedTableCollcetionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTNestedTableCollcetionView/Pods-TTNestedTableCollcetionView.release.xcconfig"; sourceTree = "<group>"; };
 		E787E86221B7979F00E71E8C /* TTNestedTableCollcetionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTNestedTableCollcetionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E787E86521B7979F00E71E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E787E86621B7979F00E71E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +40,8 @@
 		E787E88221B7990D00E71E8C /* TTFixedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFixedTableViewCell.m; sourceTree = "<group>"; };
 		E787E88421B7993700E71E8C /* TTRootCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTRootCollectionCell.h; sourceTree = "<group>"; };
 		E787E88521B7993800E71E8C /* TTRootCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTRootCollectionCell.m; sourceTree = "<group>"; };
+		E787E88721B7AB3400E71E8C /* TTTBImitationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTBImitationViewController.h; sourceTree = "<group>"; };
+		E787E88821B7AB3400E71E8C /* TTTBImitationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTBImitationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCD77CFF38EAA65D2217618 /* Pods_TTNestedTableCollcetionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341555804F277F32BEAAEB0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0294325165B543E649FA3CF1 /* Pods_TTNestedTableCollcetionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC80E6544BDEB57AFA2FD275 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DBB89CD31C099CDD1A0CA89 /* Pods-TTNestedTableCollcetionView.debug.xcconfig */,
+				A1E746705270BCDFF14790DF /* Pods-TTNestedTableCollcetionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E787E85921B7979F00E71E8C = {
 			isa = PBXGroup;
 			children = (
 				E787E86421B7979F00E71E8C /* TTNestedTableCollcetionView */,
 				E787E86321B7979F00E71E8C /* Products */,
+				BC80E6544BDEB57AFA2FD275 /* Pods */,
+				341555804F277F32BEAAEB0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +104,8 @@
 				E787E88521B7993800E71E8C /* TTRootCollectionCell.m */,
 				E787E88121B7990D00E71E8C /* TTFixedTableViewCell.h */,
 				E787E88221B7990D00E71E8C /* TTFixedTableViewCell.m */,
+				E787E88721B7AB3400E71E8C /* TTTBImitationViewController.h */,
+				E787E88821B7AB3400E71E8C /* TTTBImitationViewController.m */,
 				E787E86B21B7979F00E71E8C /* Main.storyboard */,
 				E787E86E21B797A800E71E8C /* Assets.xcassets */,
 				E787E87021B797A800E71E8C /* LaunchScreen.storyboard */,
@@ -93,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E787E87821B797A800E71E8C /* Build configuration list for PBXNativeTarget "TTNestedTableCollcetionView" */;
 			buildPhases = (
+				24FE67E1B09B4AED97BDFC7C /* [CP] Check Pods Manifest.lock */,
 				E787E85E21B7979F00E71E8C /* Sources */,
 				E787E85F21B7979F00E71E8C /* Frameworks */,
 				E787E86021B7979F00E71E8C /* Resources */,
+				775A443C87694E0E02F7B687 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,12 +182,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24FE67E1B09B4AED97BDFC7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTNestedTableCollcetionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		775A443C87694E0E02F7B687 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TTNestedTableCollcetionView/Pods-TTNestedTableCollcetionView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTNestedTableCollcetionView/Pods-TTNestedTableCollcetionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E787E85E21B7979F00E71E8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E787E88321B7990D00E71E8C /* TTFixedTableViewCell.m in Sources */,
+				E787E88921B7AB3400E71E8C /* TTTBImitationViewController.m in Sources */,
 				E787E88621B7993800E71E8C /* TTRootCollectionCell.m in Sources */,
 				E787E88021B798AD00E71E8C /* TTRootTableCell.m in Sources */,
 				E787E87D21B7985C00E71E8C /* TTRootViewController.m in Sources */,
@@ -301,6 +372,7 @@
 		};
 		E787E87921B797A800E71E8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBB89CD31C099CDD1A0CA89 /* Pods-TTNestedTableCollcetionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -318,6 +390,7 @@
 		};
 		E787E87A21B797A800E71E8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E746705270BCDFF14790DF /* Pods-TTNestedTableCollcetionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

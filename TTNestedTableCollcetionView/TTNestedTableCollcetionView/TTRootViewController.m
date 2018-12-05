@@ -8,6 +8,7 @@
 
 #import "TTRootViewController.h"
 #import "TTFixedTableViewCell.h"
+#import "TTTBImitationViewController.h"
 
 #define K_T_Cell @"t_cell"
 #define K_C_Cell @"c_cell"
@@ -70,8 +71,9 @@
 
 //点击UICollectionViewCell的代理方法
 - (void)didSelectItemAtIndexPath:(NSIndexPath *)indexPath withContent:(NSString *)content {
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"" message:content delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
-    [alertView show];
+    TTTBImitationViewController *vc = [[TTTBImitationViewController alloc] init];
+    vc.contentStr = content;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark ====== init ======
